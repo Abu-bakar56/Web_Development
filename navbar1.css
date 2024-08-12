@@ -1,0 +1,31 @@
+div{
+   
+    background-color:rgb(35,47,62);
+    height: 75px;
+    align-items: center;
+}
+
+#amazon{
+   padding-top: 30px;
+    color:rgb(255,153,0);
+    
+}
+
+th{
+    padding-top: 30px;
+    color: white;
+    padding-left: 120px;
+}
+#input{
+    padding-left: 220px;
+    
+}
+
+button{
+   
+    background-color: rgb(255,153,0);
+    
+}
+
+
+ 

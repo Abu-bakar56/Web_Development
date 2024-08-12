@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    font-family: Slack-Circular-Pro, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+    
+    border: border-box;
+
+
+}
+
+.headerpanel {
+    height: 80px;
+    width: 1380px;
+    padding-left: 70px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerlogo1 {
+
+    height: 80px;
+    width: 125px;
+
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.headerlogo {
+    padding-top: 8px;
+    height: 37px;
+    width: 100px;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.headerlogo2 {
+    background-image: url(slacklogo.png);
+    background-size: cover;
+    height: 37px;
+    width: 100px;
+}
+
+.feat {
+    padding-top: 8px;
+    height: 22px;
+    width: 100px;
+    /* font-weight:bold;  */
+
+    text-align: center;
+
+}
+
+.feat2 {
+    height: 22px;
+    width: 76px;
+    display: flex;
+}
+
+.feat i {
+    padding-top: 2px;
+    padding-left: 2px;
+
+}
+
+.headerpanelexit {
+    height: 29px;
+    width: 550px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aa {
+    margin-left: 8px;
+}
+
+.search_icon {
+    display: flex;
+    justify-content: center;
+    height: 8px;
+    width: 20px;
+}
+
+.signin {
+    /* font-weight:bold;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
+.talksale {
+    padding-top: 2px;
+    color: #611f69;
+    border: 2px solid #611f69;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border-radius: 5%;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.talksale:hover {
+    border: 4px solid #611f69;
+}
+
+.get {
+    padding-top: 2px;
+    color: white;
+    border: 2px solid #611f69;
+    background-color: #611f69;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border-radius: 5%;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.get:hover {
+    opacity: 1;
+}
+
+.hero {
+    height: 56px;
+    width: 1380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    height: 163px;
+    width: 462px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.h2 {
+    color: #611f69;
+    font-weight: bolder;
+
+    height: 200px;
+    width: 462px;
+    font-size: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.button {
+    padding-top: 2px;
+    margin-top: 20px;
+    height: 170px;
+    width: 1380px;
+    display: flex;
+
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gettt {
+    padding-top: 2px;
+    color: white;
+    border: 2px solid #611f69;
+    background-color: #611f69;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border-radius: 4%;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.gettt:hover {
+    opacity: 1;
+}
+
+.line {
+    height: 0px;
+    width: 1380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line p {
+    font-weight: bold;
+}
+
+.logo_hero {
+    height: 76px;
+    width: 1380px;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.hero_video {
+    margin-top: 40px;
+    height: 550px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.mid {
+    height: 400px;
+    width: 1520px;
+    background-color: #f4edef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video_midwala video {
+    margin-top: 20px;
+    height: 300px;
+    width: 580px;
+    margin-left: 100px;
+}
+
+.midcontent {
+
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 300px;
+    width: 580px;
+
+}
+
+.h3 {
+    height: 80px;
+    width: 450px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.h4 {
+    margin-top: 25px;
+    height: 120px;
+    width: 450px;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+#r1 {
+    height: 100px;
+}
+
+.h5 {
+    height: 120px;
+    width: 450px;
+    color: rgb(58, 123, 170);
+    margin-left: 50px;
+    font-size: 20px;
+    display: flex;
+}
+
+.h5 i {
+    color: rgb(58, 123, 170);
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 5px;
+    width: 20px;
+}
+
+#r2 {
+    margin-top: 15px;
+}
+
+.video_midwala video {
+    margin-top: 20px;
+    height: 300px;
+    width: 580px;
+    margin-left: 100px;
+}
+
+.midcontent {
+
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 300px;
+    width: 580px;
+
+}
+
+.footerfirst {
+    height: 350px;
+    width: 1520px;
+    background-color: #611f69;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+
+}
+
+.footersecond {
+    height: 200px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f4edef;
+}
+
+.footerbutton {
+    height: 60px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ge {
+    padding-top: 2px;
+    color: white;
+    border: 2px solid #611f69;
+    background-color: #611f69;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border-radius: 4%;
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#r6 {
+    color: #611f69;
+    border: 2px solid #611f69;
+    background-color: #f4edef;
+}
+
+
+.talk {
+    padding-top: 2px;
+    color: #f4edef;
+    border: 2px solid #f4edef;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border-radius: 4%;
+
+    margin-left: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerka {
+    padding-left: 100px;
+    height: 100px;
+    width: 1520px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.mixlogo {
+    margin-left: 1000px;
+}
+
+.mixlogo i {
+    margin-left: 20px;
+}
+
+.li {
+
+    height: 50px;
+    width: 1390px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.foot_panel2 {
+
+    background-color: white;
+    color: #696969;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1390px;
+
+}
+
+ul {
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.p1 {
+    color: black;
+    font-weight: bold;
+}
+
+ul a {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #696969;
+    margin-bottom: 10px;
+}
+
+.foot_panel {
+    margin-left: 180px;
+    background-color: white;
+    color: #696969;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#lo {
+    margin-left: 220px;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#lo ul {
+
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+
+.foot_panel ul {
+
+    font-size: 20px;
+
+}
+
+.footlg img {
+    height: 54px;
+    width: 54px;
+    margin-left: 50px;
+
+
+}
+
+#li2 {
+    height: 20px;
+}
+
+.last {
+    height: 100px;
+    width: 1390px;
+
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:
+        rgb(58, 123, 170);
+
+
+
+}
+
+.last5 i {
+    margin-left: 5px;
+}
+
+.last6 {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.last6 a {
+    color: #696969;
+    margin-left: 5px;
+    font-size: small;
+    width: 80px;
+
+}
+
+#la {
+    width: 150px;
+}
+
+.last88 {
+    color: #696969;
+    padding-left: 300px;
+    font-size: small;
+    height: 35;
+    width: 760;
+
+
+}
+
+#o {
+    width: 120px;
+}
